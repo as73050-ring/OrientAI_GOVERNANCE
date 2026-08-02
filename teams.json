@@ -1,0 +1,6 @@
+{
+  "teams": [
+    {"id":"finance_ops","name":"財務營運","memberIds":["wang","chen"],"adminIds":["chen"],"reviewerIds":["chen"],"knowledgeBases":[{"id":"budget","name":"年度預算編列指南","status":"DRAFT","classification":"部門機密","ownerId":"wang","collaboratorIds":["chen"],"publishTarget":null},{"id":"closing","name":"月結作業檢核表","status":"TEAM_ONLINE","classification":"內部","ownerId":"chen","collaboratorIds":["wang"],"publishTarget":"team"}]},
+    {"id":"product","name":"產品中心","memberIds":["wang","lin","chang"],"adminIds":["wang"],"reviewerIds":["wang"],"knowledgeBases":[{"id":"security","name":"全公司資安規範","status":"PENDING_COMPANY","classification":"高敏感","ownerId":"wang","collaboratorIds":["li"],"publishTarget":"company"}]}
+  ]
+}

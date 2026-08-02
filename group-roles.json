@@ -1,0 +1,8 @@
+{
+  "groups": [
+    {"id":"business_division","name":"事業處","description":"跨部門展示群組","roleIds":["product_manager","presales"]},
+    {"id":"product_center","name":"產品中心","description":"產品規劃與維運","roleIds":["product_manager","operations"]},
+    {"id":"finance_project","name":"財務專案","description":"財務營運專案協作","roleIds":["team_admin"]},
+    {"id":"company_review","name":"公司知識發布審核團","description":"系統固定群組，不可刪除","roleIds":["reviewer"],"system":true}
+  ]
+}

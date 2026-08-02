@@ -1,0 +1,10 @@
+{
+  "roles": [
+    {"id":"system_admin","name":"系統管理者","description":"系統固定角色：全域管理。","system":true,"teamBound":false,"permissionIds":["agent.view","agent.create","agent.publish","agent.manage","agent.approve","agent.guardrail","agent.audit_log","kb.view","kb.edit_document","kb.delete","kb.manage_collaborators","kb.publish","kb.audit_log","mcp.create","mcp.manage","mcp.approve","access.feature_manage","access.account_manage","access.system_settings","credential.request","credential.manage","activity.view","analytics.dashboard"]},
+    {"id":"reviewer","name":"審核人員","description":"系統固定角色：公司級審核。","system":true,"teamBound":false,"permissionIds":["agent.view","agent.approve","agent.audit_log","kb.view","kb.publish","kb.audit_log","mcp.approve","activity.view","analytics.dashboard"]},
+    {"id":"team_admin","name":"團隊管理員","description":"系統固定角色：僅管理本人所屬團隊。","system":true,"teamBound":true,"permissionIds":["kb.view","kb.edit_document","kb.manage_collaborators","kb.publish","kb.audit_log","activity.view"]},
+    {"id":"product_manager","name":"產品管理員","description":"自訂職位範例：管理產品文件與 Agent。","system":false,"teamBound":false,"permissionIds":["agent.view","agent.create","agent.publish","kb.view","kb.edit_document","kb.manage_collaborators","kb.publish","analytics.dashboard"]},
+    {"id":"presales","name":"售前業務","description":"自訂職位範例：查看已核准的產品資源。","system":false,"teamBound":false,"permissionIds":["agent.view","kb.view","credential.request","analytics.dashboard"]},
+    {"id":"operations","name":"維運人員","description":"自訂職位範例：管理 Agent、MCP 與活動。","system":false,"teamBound":false,"permissionIds":["agent.view","agent.manage","agent.guardrail","agent.audit_log","mcp.create","mcp.manage","activity.view","analytics.dashboard"]}
+  ]
+}
